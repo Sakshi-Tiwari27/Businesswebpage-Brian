@@ -50,7 +50,6 @@ h5, .h5 {
 
 h6, .h6 {
   font-size: 16px;
-  text-transform: uppercase;
   font-weight: 400;
 }
 
@@ -68,7 +67,7 @@ html, body {
 }
 
 .navbar{
-	background:#fff;
+	background:#eee;
 }
 
 .navbar-toggle .icon-bar {
@@ -305,7 +304,7 @@ a:hover, a:focus {
 }
 
 .logo{
-	width:70%;
+	width:80%;
 }
 
 .navbar-nav li {
@@ -382,7 +381,7 @@ ul.dropdown-menu li {
 }
 
 .fixed-nav {
-  background: #fff;
+  background: #eee;
 }
 
 .navbar-toggler {
@@ -429,7 +428,7 @@ ul.dropdown-menu li {
 }
 
 .mt-80px {
-  margin-top: -80px;
+  margin-top: -150px;
 }
 
 .number {
@@ -851,3 +850,9 @@ ul.dropdown-menu li {
   }
 }
 /*# sourceMappingURL=style.css.map */
+
+.adj-block{
+    background: linear-gradient(90deg, rgb(33, 68, 120) 0%, #046bd1 100%, #9eedff 100%, #2d81fe 100%) !important;
+    border-color: rgb(245, 99, 75);
+	color: #fff;
+}
