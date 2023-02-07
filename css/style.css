@@ -856,3 +856,37 @@ ul.dropdown-menu li {
     border-color: rgb(245, 99, 75);
 	color: #fff;
 }
+
+#about img{
+	width:75%;
+	float:right;
+}
+
+#contact{
+	padding:50px 0px !important;
+	text-align:center;
+}
+
+#contact h3{
+	text-transform: none;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background: linear-gradient(90deg, rgb(33, 68, 120) 0%, #046bd1 100%, #9eedff 100%, #2d81fe 100%);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}

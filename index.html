@@ -62,7 +62,8 @@
 				<li class="nav-item">
 					<a class="nav-link" href="#about">About</a>
 				</li>
-				<li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+				<li class="nav-item"><a class="nav-link" href="#course">Course</a></li>
+				<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
 			</ul>
 		</div>
 	</div>
@@ -154,13 +155,13 @@ After many productive years in the workforce many people struggle to adapt to a 
 	
 	
 <!-- Section Services Start -->
-<section class="section services ">
+<section class="section services" id="course">
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-lg-8 text-center">
 				<div class="section-title">
 					<div class="divider mb-3"></div>
-					<h2>Courses</h2>
+					<h2>The Course</h2>
 					<p>The Turning Retirement into Desirement Course provides prospective and current retirees a method of identifying their skills and capabilities and a workable structure to identify the opportunities and activities available to them. The course provides:</p>
 				</div>
 			</div>
@@ -200,7 +201,7 @@ After many productive years in the workforce many people struggle to adapt to a 
 					<p>“Whilst many courses available deal with the financial side of retirement and others try to address the emotional impact, few if any provide a practical, tangible workable framework to not only prepare you for retirement but provide the tools that will empower you to ensure your retirement is everything you dreamed of.  I have specifically designed this course for those that not only want to remove the angst associated with retiring but be empowered with the ability to turn their retirement into a life they dreamed of.”</p><br/>
 					
 					<h5>Brian Clarke</h5>
-<h6>MMan&lead GDipMan&Lead, GCAppMan, AssocDipSS, CertIVTrain&Ass</h6>
+<h6>MMan&Lead, GDipMan&Lead, GCAppMan, AssocDipSS, CertIVTrain&Ass</h6>
 				</div>
 			</div>
 		</div>
@@ -267,13 +268,28 @@ After many productive years in the workforce many people struggle to adapt to a 
 			</div>
 			
 			<div class="col-lg-6">
-				<img src="images/bg/about-bg.jpg" alt="" class="img-fluid rounded shadow w-100">
+				<img src="images/bg/about-bg.jpg" alt="" class="img-fluid rounded shadow">
 			</div>
 			
 		</div>
 	</div>
 </section>
 <!-- Section About End -->
+	
+	
+	<!-- Section contact start -->
+<section class="section contact" id="contact">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-lg-12">
+				<div class="pl-3 mt-5 mt-lg-0">
+					<h3 class="mt-1 mb-3">Email : mailto:desirement@aussiebroadband.com.au</h3>
+
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Section contact End -->
 
 <!-- Section Footer Start -->
 <!-- footer Start -->
@@ -293,6 +309,8 @@ After many productive years in the workforce many people struggle to adapt to a 
 		</div>
 	</div>
 </footer>
+	
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 <!-- Section Footer End -->
 
 <!-- Section Footer Scripts -->
@@ -319,6 +337,28 @@ After many productive years in the workforce many people struggle to adapt to a 
    <script src="plugins/google-map/gmap.js"></script>
 
    <script src="js/script.js"></script>
+	
+	<script>
+// Get the button
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
 
    </body>
 
