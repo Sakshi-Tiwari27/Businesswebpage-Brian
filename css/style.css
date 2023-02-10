@@ -392,7 +392,9 @@ ul.dropdown-menu li {
 }
 
 .navbar-collapse.collapse.show {
-  background: #181a23;
+      border-top: 2px solid #ddd;
+    margin-top: 10px;
+    padding-top: 10px;
 }
 
 .slider {
@@ -830,7 +832,34 @@ ul.dropdown-menu li {
   .navbar-nav li {
     padding: 0px;
   }
+	
+	.navbar-brand{
+		display: initial !important;
+	}
+	
+	.navbar-toggler{
+		float:right;
+		margin-top:8px !important;
+	}
+	
+	#contact h3{
+		font-size:16px;
+	}
+	
+	.footer p{
+		text-align:center;
+	}
+	
+	.footer ul{
+		text-align:center !important;
+	}
+	
+	.section{
+		padding:25px 0px;
+	}
 }
+
+
 @media (max-width: 768px) {
   .media {
     display: block;
@@ -848,6 +877,45 @@ ul.dropdown-menu li {
   .navbar-nav li {
     padding: 0px;
   }
+	
+  .logo{
+	width:40%;
+  }
+	
+	#about img{
+		width:100% !important;
+		float:left !important;
+	}
+	
+	.navbar-brand{
+		display: initial !important;
+	}
+	
+	.navbar-toggler{
+		float:right;
+		margin-top: 28px;
+	}
+}
+
+@media (max-width: 1024px) and (min-width: 767px){
+	
+	.navbar-brand{
+		display: initial !important;
+	}
+	
+	.navbar-toggler{
+		float:right;
+		margin-top: 28px;
+	}
+	
+	.logo{
+	width:40%;
+  }
+	
+	#about img {
+    width: 100% !important;
+    float: left;
+}
 }
 /*# sourceMappingURL=style.css.map */
 
